@@ -9,10 +9,11 @@ function About() {
       <div className="about-top">
         <div className="about-info">
           Hola 👋, Soy un  <br />
-          <span className="info-name">Desarrollador Web</span>.<br /> Autodidacta 
-          apasionado por aprender cosas nuevas.
+          <span className="info-name">Desarrollador front-end</span><br />  
+         con sede en la animada ciudad de Lima, Perú. <br /> 
+        !Que bueno verte!
       
-        </div>
+        </div> 
         <div className="about-photo">
           <img
            // src={require("../../../assets/image/coding.png").default}

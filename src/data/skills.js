@@ -3,7 +3,7 @@ export const SkillsData = [
     type: "Frontend",
     list: [
       {
-        name: "ReactJS",
+        name: "React",
         icon: <i class="devicon-react-original colored"></i>,
       },
       {
@@ -31,17 +31,15 @@ export const SkillsData = [
   {
     type: "Backend",
     list: [
-      {
-        name: "Java",
-        icon: <i class="devicon-java-plain colored"></i>,
-      },
+
       {
         name: "Spring Boot",
         icon: <i class="devicon-spring-plain colored"></i>,
       },
       {
-        name: "SQL Server",
-        icon: <i class="devicon-microsoftsqlserver-plain colored"></i> ,
+        name: "PostgreSql",
+        icon: <i class="devicon-postgresql-plain colored"></i>
+       ,
       },
       {
         name: "MySQL",

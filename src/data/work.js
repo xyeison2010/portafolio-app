@@ -8,8 +8,9 @@ export const WorkData = [
     companyLogo:
       "https://cdn3.iconfinder.com/data/icons/data-science-set-01-2/65/20-512.png"
       ,
-    work: `He pasado gran parte de este tiempo mejorando constantemente mi oficio,
-     mi filosofía siempre ha sido practicar y aprender continuamente. 
+    work: `
+    Paso la mayor parte de mi tiempo en las mañanas mejorando mis habilidades de codificación,  
+     mi filosofía siempre ha sido practicar y aprender continuamente.    
      Por cierto, amo lo que hago, y seré feliz haciéndolo por el resto de mi vida.  `,
   },
  

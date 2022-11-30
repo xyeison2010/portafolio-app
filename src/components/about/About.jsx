@@ -9,7 +9,7 @@ function About() {
       <div className="about-top">
         <div className="about-info">
           Hola 👋, Soy un  <br />
-          <span className="info-name">Desarrollador front-end</span><br />  
+          <span className="info-name">Desarrollador Full Stack</span><br />  
          con sede en la animada ciudad de Lima, Perú. <br /> 
         !Que bueno verte!
       

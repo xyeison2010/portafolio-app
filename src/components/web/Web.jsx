@@ -1,11 +1,16 @@
 import React from "react";
+import { useState } from "react";
 import "./web.css";
 function Web() {
+  const [active, setActive] = useState(true)
   return (
+    <>
+ 
     <div className="web">
-      <div className="web-option">
-        <a href="#projects">
-          <i class="fi-rr-edit-alt option-icon"></i>Proyectos
+      
+      <div className="web-option"  >
+        <a href="#projects"  >
+          <i class="fi-rr-edit-alt option-icon" ></i>Proyectos
         </a>
       </div>
       <div className="web-option">
@@ -23,7 +28,7 @@ function Web() {
           <i class="fi-rr-user option-icon"></i>Contacto
         </a>
       </div>
-    </div>
+    </div> </>
   );
 }
 

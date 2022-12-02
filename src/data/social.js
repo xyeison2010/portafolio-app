@@ -8,7 +8,7 @@ export const SocialData = [
    {
     platform: "Gmail",
     icon:  "https://cdn-icons-png.flaticon.com/512/281/281769.png",
-    link: "leonardohuacahidalgo@gmail.com",
+    link: `leonardohuacahidalgo@gmail.com`,
   },
   {
     platform: "Github",

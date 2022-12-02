@@ -1,6 +1,7 @@
 .about {
   /* height: 75vh; */
   padding-bottom: 48px;
+
 }
 .about-top {
   display: flex;
@@ -10,6 +11,7 @@
 .picture {
   height: 200px;
   width: auto;
+  
 }
 .about-info {
   font-size: 24px;

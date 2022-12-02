@@ -1,3 +1,4 @@
+
 body {
   font-family: "Work Sans", sans-serif;
 }
@@ -21,4 +22,23 @@ html {
   .home {
     width: 100%;
   }
+}
+
+/* circulo animado */
+
+.nav__circle {
+  position: fixed;
+  left: 0;
+  top: 0;
+/*   margin: 182px 0 75px -377px; */ /* top , rigth ,bottom , left */
+margin: 182px 0 75px 1000px;
+
+width: 750px;
+  height: 750px;
+  overflow: hidden;
+}
+.nav__circle p {
+  position: absolute;
+  left: 0;
+  top: 0;
 }

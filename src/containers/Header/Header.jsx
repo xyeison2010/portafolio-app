@@ -16,7 +16,7 @@ function Header() {
         Leonardo Huaca 
       </div>
       <div className="menu">
-        <div className="web-menu">
+        <div className="web-menu" >
           <Web />
         </div>
 

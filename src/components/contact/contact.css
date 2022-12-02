@@ -21,7 +21,9 @@
 }
 
 .download {
-  background-color: aquamarine;
+  background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+  
+
   padding: 8px 16px;
   font-size: 24px;
   display: flex;
@@ -31,7 +33,7 @@
 }
 .download a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .download-icon {
 }

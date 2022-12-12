@@ -1,8 +1,3 @@
-import inst from '../images/instagram.png';
-import github from '../images/github.png';
-import linkedin from '../images/linkedin.png';
-import facebook from '../images/facebook.png';
-import twitter from '../images/twitter.png';
 
 export const SocialData = [
    {

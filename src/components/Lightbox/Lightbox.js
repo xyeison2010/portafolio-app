@@ -11,12 +11,12 @@ const Lightbox = ({ project, onClose }) => {
           className="lightbox-item"
           style={{ backgroundImage: `url('${project.image}')` }}
         ></div>
-        <span className="lightbox-control btnLeft">
+       {/*  <span className="lightbox-control btnLeft">
           <i className="fas fa-caret-left"></i>
         </span>
         <span className="lightbox-control btnRight">
           <i className="fas fa-caret-right"></i>
-        </span>
+        </span> */}
       </div>
     </div>
   );

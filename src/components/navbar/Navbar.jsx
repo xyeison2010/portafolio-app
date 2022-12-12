@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import "./web.css";
-function Web() {
-  const [active, setActive] = useState(true)
+import "./navbar.css";
+function Navbar() {
+
   return (
     <>
  
@@ -32,4 +32,4 @@ function Web() {
   );
 }
 
-export default Web;
+export default Navbar;

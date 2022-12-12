@@ -9,14 +9,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rudemex/bf-pei-react-java-baufest-tennis.git"
-  },
-  "keywords": [
-    "PEI",
-    "React"
-  ],
+ 
   "author": "leo",
   "license": "MIT",
   "prettier": {
@@ -40,6 +33,7 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.0",
+    "sass": "^1.56.1",
     "styled-components": "^5.2.3"
   },
   "devDependencies": {

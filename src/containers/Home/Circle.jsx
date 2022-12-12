@@ -4,7 +4,7 @@ import circle_03 from "../../images/bg/circle/circle_03.png"
 import circle_04 from "../../images/bg/circle/circle_04.png"
 import circle_05 from "../../images/bg/circle/circle_05.png"
 //styles in home.css
-const Sidebar = () =>{
+const Circle = () =>{
 
 return(<>
  <div style={{zIndex : -2}}>
@@ -23,4 +23,4 @@ return(<>
 
 
 }
-export default Sidebar;
+export default Circle;

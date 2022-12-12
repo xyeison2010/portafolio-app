@@ -1,8 +1,9 @@
 import React, { useState, useRef } from 'react';
-import './projects.css';
 import ProjectCard from './project-card';
 import { ProjectData } from '../../data/projects';
 import Separator from '../../containers/common/separator/Separator';
+import Slider from '../Slider/Slider';
+import './projects.css';
 
 function Projects() {
   const data = ProjectData;
@@ -26,7 +27,9 @@ function Projects() {
         <a href="https://github.com/xyeison2010">
           <button>Ver más</button>
         </a>
-      </div>
+      </div> 
+    <Slider />
+
     </>
   );
 }

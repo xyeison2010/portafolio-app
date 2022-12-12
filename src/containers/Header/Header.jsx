@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./header.css";
 import Mobile from "../../components/mobile/Mobile";
-import Web from "../../components/web/Web";
+import Navbar from "../../components/navbar/Navbar";
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const handleLogoClick = () => {
@@ -17,7 +17,7 @@ function Header() {
       </div>
       <div className="menu">
         <div className="web-menu" >
-          <Web />
+          <Navbar />
         </div>
 
         <div className="mobile-menu">

@@ -1,4 +1,4 @@
-import coding from '../../src/images/coding.png';
+
 export const WorkData = [
   {
     company: "Mi nombre es Leonardo",

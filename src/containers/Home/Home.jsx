@@ -7,15 +7,13 @@ import './rotate.css';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import Body from '../Body/Body';
-import Sidebar from './Sidebar';
+import Circle from './Circle';
 
 const Home = () => {
- 
   return (
     <>
-      
-   <div className="home">
-     <Sidebar/>
+      <div className="home">
+        <Circle />
         <div>
           <Header />
         </div>
@@ -26,8 +24,6 @@ const Home = () => {
           <Footer />
         </div>
       </div>
-   
-      
     </>
   );
 };

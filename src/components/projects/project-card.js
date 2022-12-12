@@ -33,7 +33,8 @@ function ProjectCard({ project }) {
           {project.github && (
             <a className="project-link" href={project.github}>
               <div className="link-button">
-                <i class="devicon-github-original colored"></i> GIthub
+                <i class="devicon-github-original colored"> </i> Github
+                 
               </div>
             </a>
           )}
@@ -46,7 +47,8 @@ function ProjectCard({ project }) {
         </div>
       </div>
      
-      <img src={project.image} className="project-photo"onClick={(e) => showLightBox(e, project)}  />
+      <img src={project.image} className="project-photo"
+      onClick={(e) => showLightBox(e, project)}  />
      
       {isShowLightbox ? (
         <Lightbox project={itemref.current} onClose={onClose} />

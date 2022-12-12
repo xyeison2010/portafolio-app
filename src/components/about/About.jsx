@@ -1,7 +1,7 @@
 import React from "react";
 import SocialContact from "../../containers/common/social-contact/socialContact";
 import "./about.css";
-import coding from '../../images/coding.png';
+
 import mi_foto from '../../images/yo.png';
 function About() {
   return (

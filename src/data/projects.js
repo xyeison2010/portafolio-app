@@ -1,10 +1,8 @@
 
-import tennis from "../images/tennis.png"
-import shopping from "../images/shopping.png"
-import pastel from "../images/pastel.png"
-import restaurante from "../images/restaurante.png"
-import bazar from "../images/bazar_shop.png"
-import slide from "../images/fade_slide.png"
+import tennis from "../images/project/tennis.png"
+import pastel from "../images/project/pastel.png"
+import bazar from "../images/project/bazar_shop.png"
+import slide from "../images/project/fade_slide.png"
 export const ProjectData = [
   {
     id: 1,
@@ -15,8 +13,8 @@ export const ProjectData = [
       usando Spring Boot como backend y base de datos PostgreSql.
       Con ranking de usuarios y  creacion del juego por partido y torneo.`,
 
-    tags: ["React", "Spring Boot", "PostgreSql","axios","bootstrap"],
-    demo: "https://deploy-tennis.herokuapp.com/",
+    tags: ["React", "Spring Boot", "PostgreSql", "axios", "bootstrap","api rest"],
+    demo: "https://tennis-app.herokuapp.com/",
     github: "https://github.com/xyeison2010/Tennis",
     image: `${tennis}`,
 
@@ -31,22 +29,22 @@ export const ProjectData = [
     y guardar favoritos. 
     
     `,
-    tags: ["React", "api", "hooks", "sass"],
-    demo: "https://bazarshop-production.up.railway.app/",
-    github: "https://github.com/xyeison2010/Bazar_Shop",
+    tags: ["React", "api", "hooks", "sass", "tailwind"],
+    demo: "https://bazar-shop.up.railway.app/",
+    github: "https://github.com/xyeison2010/bazar-shop-app",
     image:
       `${bazar}`,
 
   },
   {
     id: 3,
-    title: "Pastel Web",
+    title: "Pastry Shop",
     about:
       `Es una aplicación para un mercado de dulcerias con 100% flexbox y grid,
        actualiza el menú de forma dinámica y realizar pedidos en tiempo real.`,
     tags: ["React", "api", "promise", "context"],
-    demo: "https://pasteleria-web.herokuapp.com/",
-    github: "https://github.com/xyeison2010/pasteleria-web",
+    demo: "https://pastry-web.herokuapp.com/",
+    github: "https://github.com/xyeison2010/pastry-shop-app",
     image:
       `${pastel}`,
 
@@ -65,9 +63,9 @@ export const ProjectData = [
       "css",
       "jquery",
       "responsive",
-  "javascript"
+      "javascript"
     ],
-    demo: "https://animatedslides-production.up.railway.app/",
+    demo: "",
     github: "https://github.com/xyeison2010/AnimatedSlides",
     image:
       `${slide}`,

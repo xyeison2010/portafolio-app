@@ -2,7 +2,7 @@ import React from "react";
 import "./contact.css";
 import SocialContact from "../../containers/common/social-contact/socialContact";
 import Separator from "../../containers/common/separator/Separator";
-import MyPDF from '../../files/cv_leo_developer.pdf'; //mi pdf
+import MyPDF from '../../files/cv_leo_dev.pdf'; //mi pdf
 function Contact() {
   return (
     <div className="contact">
@@ -15,7 +15,7 @@ function Contact() {
           <SocialContact />
         </div>
         <div className="download">
-          <a  href={MyPDF} download="cv_leo_developer.pdf">
+          <a  href={MyPDF} download="cv_leo_dev.pdf">
             <i class="fi-rr-cloud-download download-icon" />
             Mi CV
           </a>

@@ -1,6 +1,3 @@
-# Baufest Tennis v2.0
-
-Aplicación Baufest Tennis desarrollada para el PEI de Fullstack React/Java
 
 ### Scripts
 

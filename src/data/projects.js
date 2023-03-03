@@ -2,18 +2,19 @@
 import tennis from "../images/project/tennis.png"
 import pastel from "../images/project/pastel.png"
 import bazar from "../images/project/bazar_shop.png"
-import slide from "../images/project/fade_slide.png"
+
+import shopcv from "../images/project/shopping.png"
 export const ProjectData = [
   {
     id: 1,
     title: `Tennis App`,
     about:
       `
-      Implementa solicitudes de API con React,
-      usando Spring Boot como backend y base de datos PostgreSql.
+      Implementa solicitudes de Api Rest con React,
+      usando Spring boot como backend y base de datos PostgreSql.
       Con ranking de usuarios y  creacion del juego por partido y torneo.`,
 
-    tags: ["React", "Spring Boot", "PostgreSql", "axios", "bootstrap","api rest"],
+    tags: ["React", "spring boot", "PostgreSql", "axios", "JUnit","mockito"],
     demo: "https://tennis-app.herokuapp.com/",
     github: "https://github.com/xyeison2010/Tennis",
     image: `${tennis}`,
@@ -29,7 +30,7 @@ export const ProjectData = [
     y guardar favoritos. 
     
     `,
-    tags: ["React", "api", "hooks", "sass", "tailwind"],
+    tags: ["React", "responsive", "hooks", "Sass", "router"],
     demo: "https://bazar-shop.up.railway.app/",
     github: "https://github.com/xyeison2010/bazar-shop-app",
     image:
@@ -38,11 +39,25 @@ export const ProjectData = [
   },
   {
     id: 3,
+    title: 'Shopping Cart',
+    about:
+    `Aplicación de ecommerce muy completa, con carrito de compras, roles de usuarios,
+    el admin puede visualizar y agregar productos. \n 
+   Para la seguridad use Spring security con OAuth2.0.
+     `,
+    tags: ['spring boot', 'Thymeleaf',"MySql", "spring security", "oauth" ],
+    demo: "",
+    github: "https://github.com/xyeison2010/shopping-Cart",
+    image:
+      `${shopcv}`,
+  },
+  {
+    id: 4,
     title: "Pastry Shop",
     about:
       `Es una aplicación para un mercado de dulcerias con 100% flexbox y grid,
        actualiza el menú de forma dinámica y realizar pedidos en tiempo real.`,
-    tags: ["React", "api", "promise", "context"],
+    tags: ["React", "css", "promise", "context"],
     demo: "https://pastry-web.herokuapp.com/",
     github: "https://github.com/xyeison2010/pastry-shop-app",
     image:
@@ -50,39 +65,7 @@ export const ProjectData = [
 
   },
 
-  {
-    id: 4,
-    title: "Animated Slides",
-    about:
-      `Transiciones de diapositivas de CSS y
-       el código jQuery para calcular la siguiente diapositiva,
-      lo más importante es que responde a todo el ancho.
-      `,
-    tags: [
-
-      "css",
-      "jquery",
-      "responsive",
-      "javascript"
-    ],
-    demo: "",
-    github: "https://github.com/xyeison2010/AnimatedSlides",
-    image:
-      `${slide}`,
-  },
+ 
 
 
-  /*  {
-     id: 5,
-     title: "Restaurant",
-     about:
-     ` Aplicación de lista de compras usando hooks. 
-       Todos los datos se mantendrán en el almacenamiento local del usuario.`,
-     tags: ["ReactJs"],
-     demo: "https://restaurant3-web.herokuapp.com/",
-     github: "https://github.com/xyeison2010/restaurante",
-     image: 
-      `${restaurante}`,
-    
-   }, */
 ];

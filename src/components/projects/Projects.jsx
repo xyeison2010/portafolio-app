@@ -13,9 +13,9 @@ function Projects() {
         <Separator />
         <label className="section-title">Proyectos</label>
         <p>
-          Todos los días, me dediqué a construir algo a partir de lo que aprendí, a continuación hay{' '}
-          <br /> una lista de sitios web que hice últimamente, algunos tardaron un par de días en
-          completarse.
+          Todos los días me dediqué a construir algo a partir de lo que aprendí, a continuación hay{' '}
+          <br /> una lista de sitios web que hice últimamente, aplicando las buenas prácticas de desarrollo
+          de software.
         </p>
 
         <div>

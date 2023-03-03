@@ -1,5 +1,5 @@
 import  restaurant from "../../images/project/restaurante.png"
-import shopcv from "../../images/project/shopping.png"
+import slide from "../../images/project/fade_slide.png"
 import calendar from "../../images/project/calendario.png"
 import movie from "../../images/project/movie.png"
 import fashion from "../../images/project/fashion.png"
@@ -69,18 +69,17 @@ export  const data = [
     },
     {
       id: 7,
-      img: `${shopcv}`,
-      title: 'Shopping Cart',
-      tags: ['java', 'spring boot', "jQuery" ,"MySql"],
-      text: `Es una aplicación de ecommerce muy completa, cuenta con roles de usuarios , 
-      el admin puede agregar y ver ventas de los productos,y para la seguridad use spring security.
-       `,
+      img: `${slide}`,
+      title: "Animated Slides",
+      tags: [  "css", "jquery","responsive", "javascript"],
+      text: `Transiciones de diapositivas de CSS y
+      el código jQuery para calcular la siguiente diapositiva,
+     lo más importante es que responde a todo el ancho.
+     `,
       demo: "",
-      github: "https://github.com/xyeison2010/shopping-Cart",
+      github: "https://github.com/xyeison2010/animated_carousel_web",
     },
-
    
-    
    
   ];
   
